@@ -1,0 +1,19 @@
+# Ignore hidden files and directories except the .gitignore itself
+.*
+!.gitignore
+
+# Ignore our in-tree cilium/ebpf clone
+ebpf/
+
+# Ignore object files
+*.o
+
+# Ignore *.go files generated with `go generate`
+*bpfe[bl].go
+
+# Ignore built binaries
+bin/
+*.ex
+
+# Ignore traffic captures for now
+traffic_captures/
