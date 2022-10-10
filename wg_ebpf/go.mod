@@ -1,4 +1,4 @@
-module github.com/pcolladosoto/wg-ebpf
+module github.com/pcolladosoto/wg-ebpf/wg_ebpf
 
 go 1.19
 
