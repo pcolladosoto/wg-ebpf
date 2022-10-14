@@ -14,6 +14,3 @@ ebpf/
 # Ignore built binaries
 bin/
 *.ex
-
-# Ignore traffic captures for now
-traffic_captures/
